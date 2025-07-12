@@ -1,0 +1,565 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height: 130px;
+    width: 1300px;
+    color: black;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav-logo{
+    height: 120px;
+    width: 200px;
+}  
+.logo{
+    background-image: url("hospitallogo.jpg");
+    background-size: cover;
+    height: 120px;
+    width: 150px;
+}
+.nav-blogs{
+    background-color: white;
+    color: #034ea2;
+    display: flex;
+    justify-content: end;
+    height: 20px;
+    width: 470px;
+    margin-right: 30px;
+    margin-top: 35px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.nav-search{
+    height: 20px;
+    width: 170px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.add-searchicon{
+    background-color: white;
+    color: #034ea2;
+    display: flex;
+    margin-right: 30px;
+    margin-top: 35px;
+}
+.nav-search i{
+    margin-right: 7px;
+}
+.nav-contact{
+    height: 20px;
+    width: 150px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.add-contacticon{
+    background-color: white;
+    color: #034ea2;
+    display: flex;
+    margin-right: 30px;
+    margin-top: 35px;
+}
+.nav-contact i{
+    margin-right: 7px;
+}
+.nav-location{
+    height: 20px;
+    width: 170px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.add-locationicon{
+    background-color: white;
+    color: #034ea2;
+    display: flex;
+    margin-right: 30px;
+    margin-top: 35px;
+}
+#first{
+    margin-right: 7px;
+}
+#second{
+    margin-left: 30px;
+}
+.nav-login{
+    height: 20px;
+    width: 80px;
+    background-color: white;
+    color: #034ea2;
+    display: flex;
+    margin-right: 30px;
+    margin-top: 35px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.add-loginicon{
+    background-image: url("loginicon.jpg");
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+    margin-right: 7px;
+}
+.nav-aboutus{
+    height: 20px;
+    width: 250px;
+    margin-left: 250px;
+    margin-right: 30px;
+    margin-top: -40px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: end;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.nav-services{
+    height: 20px;
+    width: 100px;
+    margin-right: 30px;
+    margin-top: -40px;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.nav-network{
+    height: 20px;
+    width: 100px;
+    margin-right: 30px;
+    margin-top: -40px;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.nav-health{
+    height: 20px;
+    width: 100px;
+    margin-right: 30px;
+    margin-top: -40px;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.nav-emergency{
+    height: 20px;
+    width: 100px;
+    margin-right: 30px;
+    margin-top: -40px;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+}
+button{
+    height: 40px;
+    width: 200px;
+    margin-right: 30px;
+    margin-top: -50px;
+    background-color: #034ea2;
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+#border{
+    border: 1px solid transparent;
+}
+#border:hover{
+    border: 1px solid white;
+}
+.hospitalimg{
+    background-image: url("hospital.jpg");
+    background-size: cover;
+    height: 418px;
+}
+
+.searchpannel{
+    height: 130px;
+    width: 1220px;
+    background-color: #034ea2;
+    margin-left: 20px;
+    /* margin-top: -60px; */
+    display: flex;
+    justify-content: left;
+    margin-top: -60px;
+}
+.locationpannel{
+    height: 130px;
+    width: 270px;
+    background-color: #034ea2;
+    color: white;
+}
+.firstp{
+    font-size: 25px;
+    margin-left: 25px;
+    padding-top: 12px;
+}
+.secondp{
+    font-size: 15px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+select{
+    background-color: #034ea2;
+    color: white;
+    width: 200px;
+    height: 50px;
+    margin-left: 25px;
+    border: 1px solid transparent ;
+}
+option{
+    font-size: 15px;
+}
+.searchdoctor{
+    height: 130px;
+    width: 700px;
+    background-color: #034ea2;
+    color: white;
+}
+.input{
+    height: 50px;
+    width: 500px;
+    background-color: #034ea2;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 30px;
+    margin-left: 25px;
+    border: 1px solid white ;
+}
+.searchdoctor p{
+    font-size: 15px;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+.searchdoctor placeholder{
+    color: white;
+}
+.searchicon{
+    height: 130px;
+    width: 150px;
+    background-color: #034ea2;
+    color: white;
+    font-size: 22px;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 2px solid rgb(44, 44, 244);
+}
+.micicon{
+    height: 130px;
+    width: 100px;
+    background-color: #034ea2;
+}
+.addmicicon{
+    height: 130px;
+    width: 100px;
+    background-image: url("micicon.jpg");
+    background-size: cover;
+}
+
+.headingmessage{
+    height: 130px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.doctormsg{
+    height: 800px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    display: flex;
+
+}
+.doctorimg{
+    height: 800px;
+    width: 600px;
+    background-color: white;
+}
+.adddoctorimg{
+    height: 700px;
+    width: 500px;
+    background-image: url("doctorimg.jpg");
+    background-size: cover;
+}
+.wordsofdoctor{
+    width: 600px;
+    height: 800px;
+    background-color: white;
+    color: black;
+    font-family: var(--helvetica);
+}
+.wordsofdoctor h3{
+    margin-top: 100px;
+    color: #565454;
+}
+.wordsofdoctor h2{
+    color: #565454;
+    font-weight: 1.8rem;
+}
+.wordsofdoctor h4{
+    color: #565454;
+    font-weight: 1.8rem;
+}
+
+.expertcare{
+    height: 600px;
+    width: 100%;
+    background-color: #f7f9f9;
+    font-family: var(--helvetica);
+}
+.expertcaremsg{
+    text-align: center;
+    padding-top: 50px;
+}
+.expertcaremsg h4{
+    margin-top: 10px;
+    color: #565454;
+}
+.carddeisease{
+    height: 400px;
+    width: 100%;
+    background-color: #f7f9f9;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#card{
+    height: 300px;
+    width: 220px;
+    border: 0.5px solid #565454;
+    border-radius: 10px;
+}
+#card h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addimg1{
+    height: 300px;
+    width: 220px;
+    background-image: url("card1.jpg");
+    background-size: cover;
+}
+.addimg2{
+    height: 300px;
+    width: 220px;
+    background-image: url("card2.jpg");
+    background-size: cover;
+}
+.addimg3{
+    height: 300px;
+    width: 220px;
+    background-image: url("card3.jpg");
+    background-size: cover;
+}
+.addimg4{
+    height: 300px;
+    width: 220px;
+    background-image: url("card4.jpg");
+    background-size: cover;
+}
+.addimg5{
+    height: 300px;
+    width: 220px;
+    background-image: url("card5.jpg");
+    background-size: cover;
+}
+.healthcare{
+    background-color: white;
+    color: black;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+.healthcare h4{
+    margin-top: 10px;
+    color: #565454;
+}
+.successstories{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.success{
+    width: 150px;
+    height: 40px;
+    background-color: #034ea2;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 320px;
+}
+.successstories h5{
+    color: #034ea2;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+.healthreviewcards{
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.healthcard1{
+    height: 500px;
+    width: 220px;
+}
+.healthcard2{
+    height: 500px;
+    width: 220px;
+}
+.healthcard3{
+    height: 500px;
+    width: 220px;
+}
+.healthcard4{
+    height: 500px;
+    width: 220px;
+}
+.cardimg1{
+    height: 130px;
+    width: 220px;
+    background-image: url("healthcardimg1.jpg");
+    background-size: contain;
+}
+.cardimg2{
+    height: 130px;
+    width: 220px;
+    background-image: url("healthcardimg2.jpg");
+    background-size: contain;
+}
+.cardimg3{
+    height: 130px;
+    width: 220px;
+    background-image: url("healthcardimg3.jpg");
+    background-size: contain;
+}
+.cardimg4{
+    height: 130px;
+    width: 220px;
+    background-image: url("healthcardimg4.jpg");
+    background-size: contain;
+}
+.healthreviewcards h6{
+    font-size: 0.8rem;
+    color: #565454;
+    margin-top: 15px;
+}
+.para1{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.para2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.para3{
+    margin-top: 15px;
+}
+.para4{
+    margin-top: 15px;
+}
+.last1{
+    margin-top: 20px;
+}
+.last2{
+    margin-top: 20px;
+}
+.last3{
+    margin-top: 70px;
+}
+.last4{
+    margin-top: 70px;
+}
+
+.footer{
+    background-color: #ecefef;
+    height: 600px;
+    width: 100%;
+    display: flex;
+}
+.connectwith{
+    height: 600px;
+    width: 450px;
+    background-color: #ecefef;
+    font-family: var(--helvetica);
+}
+.hospitallogo{
+    height: 150px;
+    width: 180px;
+    margin-left: 50px;
+    padding-top: 15px;
+}
+.addlogo{
+    height: 150px;
+    width: 180px;
+    background-image: url("hospitallogo.jpg");
+    background-size: cover;
+}
+.connectwith h2{
+    margin-top: 40px;
+    margin-left: 50px;
+    font-size: 1.125em;
+    font-weight: 500;
+    font-family: var(--helvetica);
+    color: #2b2a29;
+}
+.socialmediaicons{
+    margin-left: 55px;
+    display: flex;
+    height: 20px;
+    width: 200px;
+}
+.connectwith i{
+    margin-right: 20px;
+    margin-top: 25px;
+}
+.searchemail{
+    height: 50px;
+    width: 300px;
+    display: flex;
+}
+.email{
+    height: 50px;
+    width: 270px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.sendicon{
+    height: 55px;
+    width: 50px;
+}
+.addsendimg{
+    height: 55px;
+    width: 50px;
+    margin-top: 20px;
+    background-image: url("sendicon.jpg");
+    background-size: cover;
+}
+.useful links{
+    height: 600px;
+    width: 450px;
+    background-color: #ecefef;
+    font-family: var(--helvetica);
+    font-size: 1.125em;
+    font-weight: 500;
+    color: #2b2a29;
+}
+.border:hover{
+    cursor: pointer;
+
+}
